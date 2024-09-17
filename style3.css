@@ -1,5 +1,6 @@
 body {
-    background-color: aquamarine;
+    background-color: white;
+    height: 200vh;
 }
 .heading {
     position: relative;
@@ -21,18 +22,18 @@ body {
     border-radius: 15px;
     margin-right: 190px;
     transform: translateX(0px);
-    transition: transform 1s;
+    transition: transform .7s;
 }
 .translate{
  transform: translateX(150px);
- transition: transform 1s;
+ transition: transform .6s;
 }
 
 .box {
     border-radius: 15px;
     margin-top: 100px;
     background-color: white;
-    box-shadow: 0px 0px 7px 0px rgb(17, 252, 232);
+    box-shadow: 0px 0px 10px 0px #ccc;
     width: 320px;
     height: 250px;
 }
@@ -53,7 +54,6 @@ body {
 .form label {
     margin-left: 8px;
 }
-
 .button {
     border-radius: 10px;
     border: 1px solid green;
@@ -66,4 +66,31 @@ body {
         background-color: green;
         color: white;
     }
+    .img{
+        width: 70px;
+        margin-left: -4rem !important;
+    }
 }
+.result{
+    background-color: rgb(6, 88, 6);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+.result1{
+    background-color: rgb(6, 88, 6);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+.mt-5 img{
+    position:fixed;
+    width: 100px;
+}
+
